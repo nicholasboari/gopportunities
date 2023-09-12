@@ -7,6 +7,7 @@ import (
 	"github.com/nicholasboari/gopportunities/schemas"
 )
 
+// @BasePath /api/v1
 func ListOpeningHandler(ctx *gin.Context) {
 	openings := []schemas.Opening{}
 
